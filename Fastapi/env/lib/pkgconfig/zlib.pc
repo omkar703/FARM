@@ -1,0 +1,13 @@
+prefix=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env
+exec_prefix=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env
+libdir=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env/lib
+sharedlibdir=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env/lib
+includedir=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,7 @@
+prefix=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env
+includedir=${prefix}/include
+
+Name: RenderProto
+Description: Render extension headers
+Version: 0.11.1
+Cflags: -I${includedir}

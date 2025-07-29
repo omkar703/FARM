@@ -1,0 +1,7 @@
+prefix=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env
+includedir=${prefix}/include
+
+Name: DPMSProto
+Description: DPMS extension headers
+Version: 1.2
+Cflags: -I${includedir}
