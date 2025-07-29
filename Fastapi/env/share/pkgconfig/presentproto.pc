@@ -1,7 +1,0 @@
-prefix=/media/omkar/DATA/Omkar/CODE-111/Webdev/Fastapi/env
-includedir=${prefix}/include
- 
-Name: PresentProto
-Description: Present extension headers
-Version: 1.4
-Cflags: -I${includedir}
